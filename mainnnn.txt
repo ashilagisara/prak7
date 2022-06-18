@@ -1,0 +1,34 @@
+package oop7polimorfisme;
+public class OOP7Polimorfisme {
+public static void main(String[] args) {
+PegawaiTetap p1 = new PegawaiTetap("Reza Berlian","3103109838203902",9000000);
+PegawaiTetap p2 = new PegawaiTetap("Adiba
+Syakila","3103109838203902",2000000);
+PegawaiTetap p3 = new PegawaiTetap("Akmal
+Faraby","3103109838203902",5400000);
+System.out.println(p1.toString());
+System.out.println(p2.toString());
+System.out.println(p3.toString());
+
+PegawaiHarian ph1 = new
+PegawaiHarian("Aisyah
+Ramadhan","48130480328023", 8500,40);
+PegawaiHarian ph2 = new
+PegawaiHarian("AudiPutri","481304824228023", 5000,45);
+PegawaiHarian ph3 = new
+PegawaiHarian("Risa Augusta","58030480328023", 30000,30);
+System.out.println(ph1.toString());
+System.out.println(ph2.toString());
+System.out.println(ph3.toString());
+
+Sales s1 = new
+Sales("Digoo","84394842905",50,50000);
+Sales s2 = new
+Sales("Wildan","42034802",45,60000);
+Sales s3 = new
+Sales("Ajik","2480234028",90,50000);
+System.out.println(s1.toString());
+System.out.println(s2.toString());
+System.out.println(s3.toString());
+}
+}
